@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  /* margin: 1rem;   */
+  background: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+  font-size: 2.2em;
+  padding: 1rem;
+  /* min-width: 10em;
+      min-height: 2em; */
+  position: relative;
+  transition: all 0.4s;
+  width: 75%;
+  height: 10rem;
+  margin-top: 1em;
+}
