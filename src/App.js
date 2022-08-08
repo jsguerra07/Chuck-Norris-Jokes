@@ -20,7 +20,7 @@ function App() {
         navigate("/");
       }
     });
-    console.log("prueba");
+    //console.log("prueba");
   }, []);
 
   return (
