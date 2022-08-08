@@ -21,7 +21,7 @@ function App() {
       }
     });
     //console.log("prueba");
-  }, []);
+  }, [navigate]);
 
   return (
     <div className="App">
