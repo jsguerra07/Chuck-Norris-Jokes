@@ -1,8 +1,7 @@
 const fetch = require("node-fetch");
 
-const API_ENDPOINT = "https://api.chucknorris.io/jokes/random";
-
 exports.handler = async (event, context) => {
+  const API_ENDPOINT = "https://api.chucknorris.io/jokes/random";
   try {
     const response = await fetch(API_ENDPOINT);
     const data = await response.json();

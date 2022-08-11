@@ -8,7 +8,6 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    //console.log(supabase.auth.user())
     if (!supabase.auth.user()) {
       navigate("/login");
     }

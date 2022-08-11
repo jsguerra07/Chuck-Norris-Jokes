@@ -15,6 +15,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault(e);
     try {
+      alert("Check your email. We have sent a link to your inbox.");
       const response = await supabase.auth.signIn({
         email,
       });
